@@ -25,3 +25,10 @@ class Entity():
         self.created_at = datetime.now()
         self.updated_at = datetime.now()
         self.last_updated_by = created_by
+
+
+
+
+#  You will use this class as the superclass to all your 
+#  entities. This will be useful to avoid having to repeat some boilerplate code to connect to
+#  the database and to define some common properties
